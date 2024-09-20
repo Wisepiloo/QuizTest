@@ -1,0 +1,100 @@
+¿Qué es JavaScript?,Un lenguaje de estilo,[#T]Un lenguaje de programación,Un lenguaje de marcado,Un lenguaje de diseño
+¿Cómo se declara una variable en JavaScript?,varName = 5,[#T]var varName = 5;,variable varName = 5;,let varName == 5
+¿Qué palabra clave se usa para declarar una variable que no puede cambiar?,constName,change,[#T]const,let
+¿Qué símbolo se usa para comentarios de una sola línea en JavaScript?,<!--,[#T]//,/* */,\
+¿Cómo se declara una función en JavaScript?,function() {},func() {},method() {},[#T]function myFunction() {}
+¿Qué operador se usa para la comparación estricta?,==,[#T]===,!=,=>
+¿Cómo se imprime algo en la consola del navegador?,alert,[#T]console.log(),print(),write()
+¿Cómo se define una condición en JavaScript?,switch,[#T]if (condition) {},when,case
+¿Qué estructura se usa para repetir una acción varias veces?,while,[#T]for,if,switch
+¿Cómo se redondea un número hacia abajo en JavaScript?,Math.ceil(),round(),[#T]Math.floor(),Math.trunc()
+¿Qué operador se usa para incrementar el valor de una variable en 1?,+=,[#T]++,--,+-
+¿Cómo se convierte una cadena de texto en un número entero?,parseFloat,[#T]parseInt,Number,float
+¿Qué función se usa para unir dos o más cadenas de texto?,push,[#T]concat,join,merge
+¿Qué devuelve typeof [] en JavaScript?,object,[#T]array,array-object,undefined
+¿Cómo se agrega un elemento al final de un array?,unshift,[#T]push,concat,insert
+¿Qué función elimina el último elemento de un array?,remove,[#T]pop,push,shift
+¿Cómo se selecciona un elemento HTML por su ID?,querySelector,[#T]document.getElementById,document.getElementByTag,getElementByClass
+¿Qué función devuelve el número de elementos en un array?,sum,[#T]length,count,size
+¿Cómo se convierte un número a una cadena en JavaScript?,parseInt,[#T]toString(),toText(),stringify()
+¿Qué método se usa para ordenar un array en JavaScript?,filter,[#T]sort,map,reduce
+¿Qué método se usa para ejecutar una función después de un tiempo específico?,[#T]setTimeout,setInterval,delay,timewait
+¿Cómo se detiene la ejecución de una función programada con setInterval?,setStop,[#T]clearInterval,stopTimer,clearTimeout
+¿Qué objeto se usa para manejar fechas y horas en JavaScript?,Timer,[#T]Date,Time,Clock
+¿Cómo se obtiene el año actual en JavaScript?,getMonth(),[#T]getFullYear(),getDate(),getDay()
+¿Qué palabra clave detiene la ejecución de un ciclo?,end,[#T]break,stop,exit
+¿Qué palabra clave se usa para saltar una iteración en un bucle?,break,continue,[#T]continue,skip,next
+¿Cómo se comprueba si un valor es NaN (Not a Number)?,typeof,[#T]isNaN,isNumber,checkNaN
+¿Qué palabra clave se usa para manejar excepciones en JavaScript?,error,[#T]try...catch,catch,throw
+¿Qué devuelve typeof null en JavaScript?,null,[#T]object,undefined,false
+¿Cómo se redondea un número al entero más cercano en JavaScript?,Math.floor,[#T]Math.round,roundUp,parseInt
+¿Cómo se detiene la ejecución de una función en JavaScript?,stop,[#T]return,end,exit
+¿Cómo se convierte una cadena JSON en un objeto JavaScript?,stringify,[#T]JSON.parse,JSON.stringify,parseJSON
+¿Qué operador se usa para asignar valores por defecto en JavaScript?,==,&&,||,[#T]??
+¿Cómo se declara una función anónima en JavaScript?,funcName() {},function named() {},[#T]function() {},func () {}
+¿Cómo se comprueba si un valor es un array en JavaScript?,instanceof Array,[#T]Array.isArray(),isArray(),typeof [] === 'array'
+¿Qué método se usa para ejecutar una función en cada elemento de un array?,map,[#T]forEach,reduce,filter
+¿Cómo se accede a las propiedades de un objeto en JavaScript?,obj.property,[#T]obj['property'],obj->property,obj.@property
+¿Cómo se elimina una propiedad de un objeto?,unset,[#T]delete,remove,drop
+¿Qué método convierte un array en una cadena de caracteres?,toString,[#T]join(),concat(),map()
+¿Qué palabra clave se usa para declarar una variable dentro de un bloque?,global,[#T]let,var,const
+¿Cómo se comprueba si una variable está definida en JavaScript?,exists(),[#T]typeof variable !== 'undefined',isDefined(),defined()
+¿Qué devuelve typeof undefined en JavaScript?,null,undefined,[#T]undefined,false
+¿Cómo se llama a una función de manera inmediata en JavaScript?,setTimeout,[#T](function() {})(),function.call(),startFunction()
+¿Qué método devuelve un nuevo array con los elementos que pasan una condición?,map,reduce,[#T]filter,slice
+¿Qué operador lógico representa "Y" en JavaScript?,|,[#T]&&,||,and
+¿Cómo se clona un objeto en JavaScript?,copyObject,[#T]Object.assign(),clone(),JSON.parse(JSON.stringify(obj))
+¿Qué método devuelve la posición de un valor en un array?,[#T]indexOf,find,map,reduce
+¿Cómo se combina todos los elementos de un array en una cadena de texto?,concat,[#T]join,merge,add
+¿Qué método agrega un elemento al principio de un array?,[#T]unshift,push,shift,pop
+¿Cómo se eliminan los espacios en blanco de los extremos de una cadena?,cut,[#T]trim,slice,splice
+¿Qué objeto global se usa para acceder a la URL del navegador?,window,[#T]window.location,document.location,window.navigator
+¿Cómo se seleccionan todos los elementos con una clase en JavaScript?,getElementByClassName,[#T]document.querySelectorAll('.class'),document.getElementsByClass,getElementsByTagName
+¿Qué palabra clave se usa para crear una clase en JavaScript?,object,[#T]class,function,const
+¿Cómo se crea una promesa en JavaScript?,async,[#T]new Promise(),promise(),callback
+¿Qué palabra clave se usa para definir una función asincrónica?,function,promise,[#T]async,await
+¿Cómo se espera la resolución de una promesa en una función async?,wait,[#T]await,pause,then
+¿Qué método se usa para eliminar el primer elemento de un array?,remove,[#T]shift,pop,splice
+¿Cómo se accede al DOM en JavaScript?,window,[#T]document,dom,window.DOM
+¿Qué método añade un nuevo hijo a un elemento en el DOM?,insert,[#T]appendChild,addElement,appendNode
+¿Cómo se elimina un nodo del DOM en JavaScript?,removeChild,[#T]element.remove(),deleteNode,remove
+¿Cómo se detiene la propagación de un evento en JavaScript?,stop,[#T]event.stopPropagation(),preventDefault(),stopDefault()
+¿Qué método se usa para ejecutar una función en un contexto específico?,run,[#T]call(),bind(),apply()
+¿Cómo se mezcla un array en JavaScript?,sort(),reverse(),[#T]shuffle(),sortRandom()
+¿Qué operador lógico representa "O" en JavaScript?,|,[#T]||,&&,or
+¿Cómo se pasa una función como argumento en JavaScript?,variable,[#T]callback,invoke,execFunction
+¿Cómo se evita que un formulario se envíe automáticamente?,submit.prevent,[#T]event.preventDefault(),stopSubmit(),stopPropagation()
+¿Qué método selecciona el primer elemento que coincide con un selector?,getElementById,[#T]document.querySelector,document.querySelectorAll,getElementByClassName
+¿Cómo se añade un evento de clic a un elemento en JavaScript?,onClick,[#T]addEventListener('click', function),onclick,functionClick
+¿Qué es el "hoisting" en JavaScript?,Definir variables fuera del alcance,[#T]Elevar declaraciones de variables y funciones al inicio de su contexto,Eliminar variables,Definir eventos de clic
+¿Cómo se intercambian dos valores en JavaScript sin usar una tercera variable?,temp,[#T]a = [b, b = a][0],swap(a,b),assign(a,b)
+¿Qué es el "event bubbling"?,Detener la propagación de eventos,[#T]Cuando los eventos se propagan del hijo al padre,Captura de eventos,Un tipo de función
+¿Qué devuelve typeof NaN en JavaScript?,number,[#T]NaN,undefined,object
+¿Cómo se detecta si el navegador soporta una característica?,soporte,[#T]'feature' in window,checkSupport(),feature.support
+¿Cómo se llama a una función después de un intervalo de tiempo?,setInterval,[#T]setTimeout,delay,callFunctionLater
+¿Qué función se usa para generar un número aleatorio?,Math.randomize,[#T]Math.random(),randomNumber(),random()
+¿Qué devuelve una función que no tiene un valor de retorno?,null,[#T]undefined,void,NaN
+¿Cómo se obtiene la longitud de una cadena?,size,[#T]length,measure,getSize
+¿Qué método convierte una cadena en un array?,join,[#T]split(),map(),toArray()
+¿Cómo se accede a los argumentos pasados a una función?,parameters,[#T]arguments[],args[],vars[]
+¿Qué es una función de callback en JavaScript?,Una función que se repite,[#T]Una función pasada como argumento a otra función,Una función recursiva,Una función asíncrona
+¿Qué devuelve typeof function() en JavaScript?,method,[#T]function,object,procedure
+¿Qué palabra clave se usa para crear un bloque de código que siempre se ejecuta después de un try/catch?,else,[#T]finally,catch,after
+¿Cómo se accede al objeto padre de un elemento en el DOM?,[#T]parentNode,parent,parentElement,getParent
+¿Qué método se usa para detener la ejecución de código durante un tiempo?,setWait,[#T]setTimeout,pause,setInterval
+¿Cómo se ejecuta una función en intervalos regulares?,setTimeout,[#T]setInterval,repeat,runInterval
+¿Cómo se invoca una función inmediatamente después de declararla?,callFunction,[#T](function() {})(),declare(),invoke()
+¿Qué propiedad se usa para comprobar el estado de una promesa?,result,[#T]status,value,isResolved
+¿Cómo se accede a las propiedades de un objeto mediante una variable?,obj.property,[#T]obj[variable],obj->property,property.variable
+¿Qué método convierte un número en una cadena?,parseString,[#T]toString(),stringify(),convertNumber
+¿Qué devuelve 0 == false en JavaScript?,false,[#T]true,error,undefined
+¿Qué propiedad define el número de elementos de un array?,size,[#T]length,count,numElements
+¿Qué método convierte una cadena a mayúsculas?,toUpper,[#T]toUpperCase(),stringToUpper(),makeUppercase
+¿Cómo se eliminan los duplicados de un array?,filterDuplicates,[#T]new Set(arr),Array.filter(),distinct()
+¿Qué palabra clave se usa para terminar una función antes de tiempo?,stop,[#T]return,end,exit
+¿Qué operador se usa para la asignación de un valor en una variable?,+,[#T]=,==,=>
+¿Cómo se compara si dos valores son iguales en tipo y valor?,!=,[#T]===,==,>=
+¿Qué operador representa una función flecha en JavaScript?,=>,[#T]=>,<=,->
+¿Qué es el "this" en JavaScript?,El objeto global,[#T]El contexto de la función actual,El valor actual,La variable local
+¿Cómo se comprueba si un objeto tiene una propiedad?,object.hasProperty,[#T]obj.hasOwnProperty('prop'),checkProperty(),obj.getProperty
+¿Qué devuelve Array.isArray([]) en JavaScript?,false,null,[#T]true,undefined

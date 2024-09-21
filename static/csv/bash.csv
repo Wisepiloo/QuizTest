@@ -1,7 +1,7 @@
 ¿Cuál es el comando para copiar archivos?,[#T]cp,ls,rm,mv
 ¿Qué comando muestra el contenido de un archivo?,[#T]cat,grep,rm,pwd
 ¿Cómo se ejecuta un script de Bash?,touch,[#T]./script.sh,rm,cd
-¿Qué comando se usa para contar las líneas, palabras y caracteres de un archivo?,mv,ls,[#T]wc,chmod
+¿Qué comando se usa para contar las líneas palabras y caracteres de un archivo?,mv,ls,[#T]wc,chmod
 ¿Cómo se ejecuta un comando con privilegios de superusuario?,pwd,mkdir,[#T]sudo,ls
 ¿Cuál es el comando para cambiar el propietario de un archivo?,mv,[#T]chown,chmod,rm
 ¿Qué comando muestra la fecha y hora actuales?,cd,[#T]date,ls,mkdir

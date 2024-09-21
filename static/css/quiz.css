@@ -42,6 +42,14 @@ header{
     background-color: #fff;
     padding: 20px;
 }
+
+.quizAlert {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    color: #518f32;
+}
+
 .slide {
     display:none;
     flex-direction:column;

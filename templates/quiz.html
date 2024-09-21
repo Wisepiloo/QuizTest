@@ -27,6 +27,7 @@
         <h1>{{ title }}</h1>
     </header>
     <div class="quiz_container">
+        <span class="quizAlert">Quiz completado, pase al siguiente.</span>
         {% for fila in archivo_csv %}
         {% if loop.index0 == 0 %}
             <div class="slide active">

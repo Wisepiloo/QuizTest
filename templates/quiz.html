@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for("static", filename="css/quiz.css")}}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{url_for("index")}}">Quiz Bash</a>
+            </li>
+            <li>
+                <a href="{{url_for("quizCss")}}">Quiz CSS</a>
+            </li>
+            <li>
+                <a href="{{url_for("quizHTML")}}">Quiz HTML</a>
+            </li>
+            <li>
+                <a href="{{url_for("quizJS")}}">Quiz JavaScript</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>{{ title }}</h1>
+    </header>
+    <div class="quiz_container">
+        <span class="quizAlert">Quiz completado, pase al siguiente.</span>
+        {% for fila in archivo_csv %}
+        {% if loop.index0 == 0 %}
+            <div class="slide active">
+        {% else %}
+            <div class="slide">
+        {% endif %}
+            {% for element in fila %}
+                {% if loop.index0 == 0 %}
+                    <p class="header_title">{{element}}</p>
+                {% else %}
+                    {% if "[#T]" in element %}
+                        <button class="btn_option btn--transform">{{ element | replace('[#T]', '') }}</button>
+                    {% else %}
+                        <button class="btn_option">{{element}}</button>
+                    {%endif%}
+                {% endif %}
+            {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <footer>
+        <p>&copy 2024 Copyright: Wisepilo</p>
+        <img id="img_perfil" src="{{url_for("static", filename="img/perfil.png")}}">
+    </footer>
+
+    <script src="{{url_for("static", filename="js/quiz.js")}}"></script>
+</body>
+</html>

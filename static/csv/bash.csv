@@ -1,0 +1,100 @@
+¿Cuál es el comando para copiar archivos?,[#T]cp,ls,rm,mv
+¿Qué comando muestra el contenido de un archivo?,[#T]cat,grep,rm,pwd
+¿Cómo se ejecuta un script de Bash?,touch,[#T]./script.sh,rm,cd
+¿Qué comando se usa para contar las líneas palabras y caracteres de un archivo?,mv,ls,[#T]wc,chmod
+¿Cómo se ejecuta un comando con privilegios de superusuario?,pwd,mkdir,[#T]sudo,ls
+¿Cuál es el comando para cambiar el propietario de un archivo?,mv,[#T]chown,chmod,rm
+¿Qué comando muestra la fecha y hora actuales?,cd,[#T]date,ls,mkdir
+¿Cómo se listan los procesos en ejecución?,mv,[#T]ps,rm,ls
+¿Cuál es el comando para matar un proceso?,cat,mkdir,[#T]kill,touch
+¿Qué comando se usa para descargar un archivo desde Internet?,touch,mv,[#T]wget,cd
+¿Cómo se muestra el uso del disco?,head,[#T]df,ps,ls
+¿Qué comando muestra el contenido de un archivo paginado?,rm,mkdir,[#T]less,cp
+¿Cuál es el comando para buscar archivos por nombre?,pwd,[#T]find,ps,ls
+¿Qué comando muestra la versión de Bash?,rm,[#T]bash --version,cp,touch
+¿Cómo se reinicia el sistema desde la terminal?,ls,mkdir,[#T]reboot,rm
+¿Cuál es el comando para añadir un usuario?,cp,mv,[#T]adduser,rmdir
+¿Qué comando se usa para eliminar un usuario?,cp,touch,[#T]deluser,chmod
+¿Cómo se listan los discos montados?,rm,[#T]mount,ls,cat
+¿Qué comando muestra los grupos a los que pertenece un usuario?,ps,[#T]groups,chmod,mv
+¿Cuál es el comando para ver los dispositivos conectados?,ps,ls,[#T]lsblk,grep
+¿Qué comando muestra el kernel del sistema operativo?,cd,[#T]uname,ls,mkdir
+¿Cómo se muestran los permisos de un archivo?,rm,[#T]ls -l,cp,cat
+¿Qué comando cambia la contraseña de un usuario?,rm,[#T]passwd,cat,mv
+¿Cómo se comprime un archivo?,ls,mkdir,[#T]tar,rm
+¿Qué comando se usa para descomprimir un archivo?,rm,[#T]tar -xvf,mv,cat
+¿Cómo se muestran las últimas líneas de un archivo?,cp,touch,[#T]tail,chmod
+¿Cuál es el comando para buscar archivos duplicados?,mv,chmod,[#T]fdupes,ls
+¿Qué comando muestra la memoria disponible?,cd,ps,[#T]free,ls
+¿Cómo se monitorizan las actividades del sistema en tiempo real?,touch,[#T]top,cp,mv
+¿Qué comando se usa para crear un enlace simbólico?,cat,[#T]ln -s,mkdir,ps
+¿Cómo se cambia el nombre de un archivo?,rm,[#T]mv,ps,cat
+¿Qué comando se usa para listar las interfaces de red?,touch,ls,[#T]ifconfig,mv
+¿Cuál es el comando para verificar la conectividad de red?,rm,[#T]ping,chmod,tail
+¿Qué comando se usa para bloquear el terminal?,mkdir,cp,[#T]vlock,touch
+¿Cómo se cambia el shell predeterminado?,mv,[#T]chsh,mkdir,chmod
+¿Cuál es el comando para mostrar el historial de comandos?,ls,ps,[#T]history,chmod
+¿Qué comando busca patrones en archivos?,cp,[#T]grep,mkdir,rm
+¿Cómo se redirige la salida de un comando a un archivo?,cp,touch,[#T]> mv,chmod
+¿Cuál es el comando para buscar en el historial de Bash?,tail,[#T]Ctrl+R,cat,ls
+¿Qué comando se usa para mostrar la dirección IP de la máquina?,ps,cat,[#T]hostname -I,mkdir
+¿Cómo se limpia la pantalla en Bash?,cd,touch,[#T]clear,rm
+¿Qué comando se usa para ejecutar un comando en segundo plano?,mv,ps,[#T]& rm
+¿Cómo se pausa un comando en ejecución?,mv,chmod,[#T]Ctrl+Z,touch
+¿Cuál es el comando para eliminar una carpeta y su contenido?,ls,cat,[#T]rm -r,pwd
+¿Qué comando muestra la tabla de enrutamiento?,chmod,mv,[#T]route,tail
+¿Cómo se muestra el uptime del sistema?,cp,[#T]uptime,mkdir,rm
+¿Cuál es el comando para cambiar la prioridad de un proceso?,ls,cp,[#T]renice,chmod
+¿Qué comando muestra el espacio ocupado por un directorio?,ps,mkdir,[#T]du,tail
+¿Cómo se muestra el ID del usuario actual?,mv,[#T]id,cat,ls
+¿Cuál es el comando para buscar un comando disponible?,ps,[#T]which,mkdir,cp
+¿Qué comando se usa para añadir una tarea programada?,mv,[#T]crontab,cp,chmod
+¿Cómo se fuerza el cierre de una sesión de usuario?,rm,[#T]logout,mkdir,ls
+¿Qué comando se usa para configurar el servidor SSH?,cat,mkdir,[#T]ssh-config,touch
+¿Cómo se instala un paquete en un sistema basado en Debian?,rm,[#T]apt install,cp,cat
+¿Qué comando se usa para actualizar los paquetes?,ls,[#T]apt update,ps,mkdir
+¿Cómo se muestra el contenido de un archivo en hexadecimal?,cp,touch,[#T]xxd,chmod
+¿Cuál es el comando para detener un servicio?,ps,cat,[#T]systemctl stop,mkdir
+¿Qué comando se usa para habilitar un servicio al inicio?,rm,[#T]systemctl enable,cp,mv
+¿Cómo se deshabilita un servicio?,ls,[#T]systemctl disable,chmod,mkdir
+¿Cuál es el comando para reiniciar un servicio?,mv,[#T]systemctl restart,cp,tail
+¿Qué comando muestra las interfaces de red activas?,mkdir,rm,[#T]ip a,chmod
+¿Cómo se muestran las conexiones de red activas?,tail,[#T]netstat,mv,ls
+¿Cuál es el comando para cambiar el nombre de un grupo?,ps,[#T]groupmod,mkdir,cat
+¿Qué comando muestra los detalles de uso de CPU?,ls,[#T]mpstat,cp,mv
+¿Cómo se crea un archivo comprimido en formato gzip?,chmod,ps,[#T]gzip,mkdir
+¿Cuál es el comando para crear un archivo comprimido en formato bzip2?,mv,rm,[#T]bzip2,tail
+¿Cómo se eliminan archivos duplicados en un sistema?,ps,[#T]fdupes,cat,mkdir
+¿Qué comando se usa para cambiar el valor de un parámetro en tiempo de ejecución?,chmod,cp,[#T]sysctl,mv
+¿Cómo se muestran los puertos de red en uso?,rm,[#T]ss -tuln,cp,mv
+¿Qué comando se usa para buscar procesos que usan memoria?,cat,cp,[#T]pmap,ls
+¿Cómo se crea un archivo de intercambio?,mv,touch,[#T]fallocate -l,mkdir
+¿Cuál es el comando para activar la memoria swap?,tail,[#T]swapon,ps,rm
+¿Cómo se desactiva la memoria swap?,chmod,cp,[#T]swapoff,mv
+¿Qué comando se usa para listar los usuarios conectados al sistema?,ls,ps,[#T]who,cat
+¿Cómo se muestra la última vez que un usuario inició sesión?,mv,tail,[#T]last,ps
+¿Qué comando muestra el árbol de procesos?,ls,cp,[#T]pstree,cat
+¿Cómo se cambia el nombre de la máquina?,chmod,mkdir,[#T]hostnamectl set-hostname,mv
+¿Cuál es el comando para iniciar un servicio de red?,ps,cat,[#T]systemctl start,mkdir
+¿Qué comando se usa para generar claves SSH?,ls,cp,[#T]ssh-keygen,tail
+¿Cómo se muestran las reglas de firewall?,rm,[#T]iptables -L,mv,mkdir
+¿Qué comando se usa para aplicar actualizaciones de seguridad?,cat,[#T]apt upgrade,mkdir,ps
+¿Cómo se muestra la versión del kernel?,mv,cp,[#T]uname -r,tail
+¿Cuál es el comando para forzar el desmontaje de un dispositivo?,mkdir,[#T]umount -f,chmod,mv
+¿Qué comando se usa para cambiar la máscara de permisos predeterminada?,rm,mkdir,[#T]umask,touch
+¿Cómo se instala un paquete desde una URL?,chmod,mkdir,[#T]dpkg -i,mv
+¿Qué comando se usa para crear una partición?,ps,cp,[#T]fdisk,mkdir
+¿Cómo se establece la dirección IP manualmente?,tail,[#T]ifconfig eth0,mv,rm
+¿Cuál es el comando para obtener detalles de la batería en un portátil?,cat,mkdir,[#T]acpi -b,mv
+¿Qué comando se usa para sincronizar la hora con un servidor NTP?,chmod,[#T]ntpdate,mkdir,ps
+¿Cómo se inicia una conexión SSH a un servidor?,mv,tail,[#T]ssh user@host,mkdir
+¿Qué comando se usa para mostrar información sobre particiones y uso de disco?,ls,cp,[#T]lsblk,cat
+¿Cómo se activa un dispositivo de red?,ps,chmod,[#T]ifup,mv
+¿Cuál es el comando para desactivar un dispositivo de red?,mkdir,rm,[#T]ifdown,chmod
+¿Cómo se muestra el contenido de un archivo de registro?,mv,touch,[#T]cat /var/log/syslog,ls
+¿Qué comando se usa para modificar la prioridad de un proceso en ejecución?,ls,[#T]nice,cp,mkdir
+¿Cómo se configuran variables de entorno en Bash?,ps,[#T]export VAR=value,chmod,mv
+¿Cuál es el comando para buscar archivos en el sistema de archivos?,mkdir,rm,[#T]locate,tail
+¿Qué comando muestra información sobre los dispositivos PCI conectados?,cat,ps,[#T]lspci,ls
+¿Cómo se cambia el idioma del sistema?,mv,[#T]dpkg-reconfigure locales,chmod,tail
+¿Qué comando se usa para reiniciar la red?,ls,[#T]systemctl restart networking,mkdir,mv

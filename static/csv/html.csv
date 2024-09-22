@@ -1,0 +1,75 @@
+¿Qué significa HTML?,Hyperlink Text Makeup Language,Home Tool Markup Language,[#T]HyperText Markup Language,HyperText Makeup Language
+¿Cuál es el elemento raíz de un documento HTML?,head,[#T]html,body,div
+¿Qué elemento contiene los metadatos de una página?,html,body,[#T]head,title
+¿Qué etiqueta se utiliza para crear un párrafo en HTML?,div,[#T]p,br,span
+¿Cómo se inserta un salto de línea en HTML?,[br],[#T]<br>,<br/>,<lb>
+¿Cuál es el atributo que define el vínculo de un enlace?,alt,[#T]href,src,link
+¿Qué etiqueta se usa para definir un enlace en HTML?,url,link,[#T]a,href
+¿Qué atributo se usa para abrir un enlace en una nueva pestaña?,src,href,[#T]target,link
+¿Cómo se inserta una imagen en HTML?,[img],picture,[#T]<img src="url" />,media
+¿Qué atributo se usa para definir un texto alternativo en una imagen?,src,href,[#T]alt,title
+¿Qué etiqueta se utiliza para definir un formulario en HTML?,input,[#T]form,textarea,button
+¿Qué atributo se usa para especificar el tipo de un campo de entrada?,name,id,[#T]type,value
+¿Qué etiqueta se usa para definir un campo de texto dentro de un formulario?,textarea,[#T]input,button,select
+¿Cómo se crea una lista ordenada en HTML?,ul,[#T]ol,li,div
+¿Cómo se crea una lista desordenada en HTML?,ol,[#T]ul,li,dl
+¿Qué etiqueta se usa para definir un elemento dentro de una lista?,ul,[#T]li,ol,dd
+¿Cómo se inserta un comentario en HTML?,/* */,//,[#T]<!-- comentario -->,<comment>
+¿Qué atributo define el título de una página en el navegador?,description,[#T]title,name,meta
+¿Cómo se establece el idioma de un documento HTML?,lang,[#T]<html lang="es">,<meta lang="es">,<body lang="es">
+¿Qué etiqueta se usa para crear una tabla en HTML?,div,[#T]table,tr,td
+¿Qué etiqueta se usa para definir una fila en una tabla?,td,[#T]tr,table,th
+¿Qué etiqueta define una celda en una tabla?,tr,table,[#T]td,th
+¿Qué etiqueta se usa para definir una cabecera en una tabla?,td,[#T]th,table,tr
+¿Cómo se añade un encabezado en HTML?,title,[#T]h1,h2,header
+¿Qué etiqueta se usa para crear un enlace a un archivo CSS?,link,[#T]<link rel="stylesheet" href="style.css">,style,css
+¿Qué etiqueta se usa para enlazar un archivo JavaScript?,script,[#T]<script src="app.js"></script>,js,link
+¿Cómo se establece el autor de una página en los metadatos?,creator,[#T]<meta name="author" content="Nombre">,<author>,author
+¿Qué etiqueta define el cuerpo del contenido en HTML?,head,[#T]body,html,div
+¿Cómo se agrupan elementos en bloque en HTML?,span,[#T]div,section,p
+¿Qué etiqueta se usa para definir una cita en HTML?,q,[#T]blockquote,cite,quote
+¿Cómo se inserta una línea horizontal en HTML?,[hr],[#T]<hr>,<br>,<line>
+¿Qué etiqueta se usa para resaltar texto importante?,mark,[#T]strong,b,em
+¿Qué etiqueta define texto en cursiva en HTML?,i,[#T]em,strong,b
+¿Cómo se agrega una opción a un elemento select en un formulario?,input,[#T]option,select,button
+¿Qué etiqueta se usa para definir un título dentro de un campo de formulario?,legend,[#T]label,caption,option
+¿Cómo se agrupan opciones en un elemento select?,input,[#T]optgroup,group,label
+¿Qué etiqueta se usa para definir una cita corta en línea?,cite,[#T]q,blockquote,quote
+¿Cómo se define una imagen como fondo de un documento?,background-image,[#T]style="background-image: url('image.jpg');",img src,background-url
+¿Qué atributo se usa para definir un hipervínculo como ancla?,link,href,[#T]name,id
+¿Cómo se establece un marcador dentro de una página HTML?,div,[#T]<a name="marcador"></a>,<p id="marcador"></p>,href
+¿Qué etiqueta se usa para incrustar video en HTML?,media,[#T]video,embed,object
+¿Qué etiqueta se usa para incrustar audio en HTML?,audio,[#T]audio,embed,sound
+¿Qué atributo se usa para reproducir automáticamente un video en HTML?,muted,[#T]autoplay,loop,controls
+¿Qué etiqueta define un área navegable dentro de una imagen?,map,[#T]area,img,link
+¿Qué atributo define las coordenadas de un área en una imagen?,coords,[#T]coords,href,alt
+¿Qué etiqueta define un menú desplegable en HTML?,list,[#T]select,menu,dropdown
+¿Qué etiqueta se usa para definir una lista de términos y definiciones?,dl,[#T]dl,dt,dd,ul
+¿Qué etiqueta define la definición de un término en una lista?,dt,dl,[#T]dd,li
+¿Qué etiqueta define un encabezado de grupo en HTML5?,section,[#T]header,article,hgroup
+¿Qué etiqueta se usa para definir contenido independiente y autónomo?,section,[#T]article,aside,main
+¿Qué etiqueta define un contenido tangencial al principal?,div,[#T]aside,article,section
+¿Qué etiqueta se usa para incrustar un documento en otro documento HTML?,embed,[#T]iframe,object,media
+¿Qué atributo define si un campo de formulario es obligatorio?,required,[#T]required,disabled,checked
+¿Cómo se define un campo de entrada de correo electrónico en un formulario?,text,[#T]email,url,number
+¿Qué atributo especifica el tamaño máximo de caracteres en un campo de texto?,size,[#T]maxlength,limit,chars
+¿Qué atributo se usa para predefinir el valor de un campo de texto?,text,[#T]value,default,placeholder
+¿Qué atributo indica que un campo no es modificable?,readonly,[#T]readonly,disabled,checked
+¿Cómo se define un campo de entrada numérica en un formulario?,text,[#T]number,value,range
+¿Qué etiqueta define una barra de progreso en HTML5?,meter,[#T]progress,value,bar
+¿Qué etiqueta define un medidor o una escala en HTML5?,range,[#T]meter,progress,scale
+¿Qué atributo define un cuadro de entrada como deshabilitado?,disable,[#T]disabled,readonly,checked
+¿Qué etiqueta se usa para agrupar campos de un formulario?,form,[#T]fieldset,group,section
+¿Cómo se indica el texto de sugerencia en un campo de entrada?,suggest,[#T]placeholder,tip,value
+¿Qué etiqueta define un enlace navegable dentro de un documento?,map,[#T]nav,a,href
+¿Qué atributo especifica que un enlace debe descargarse como archivo?,target,[#T]download,href,save
+¿Qué etiqueta define una tabla de contenidos en HTML5?,footer,[#T]nav,menu,aside
+¿Qué atributo se usa para especificar varias opciones posibles en un campo de entrada?,multiselect,[#T]multiple,select,option
+¿Qué atributo define una lista desplegable asociada a un campo de texto?,dropdown,[#T]datalist,select,option
+¿Cómo se define un campo de búsqueda en un formulario?,text,[#T]search,input,find
+¿Qué atributo se usa para asociar un campo con un formulario específico?,id,[#T]form,action,name
+¿Qué etiqueta se usa para agrupar enlaces relacionados en HTML5?,nav,[#T]nav,menu,section
+¿Qué etiqueta define una lista de descripciones?,desc,[#T]dl,dd,dt
+¿Qué etiqueta HTML se usa para crear un marco de referencia en una página?,div,[#T]iframe,object,frame
+¿Qué etiqueta se usa para crear una celda que abarca varias columnas?,td,[#T]colspan,rowspan,colgroup
+¿Cómo se abrevia DOCTYPE en HTML?,type,[#T]<!DOCTYPE html>,doctype="html",doctype

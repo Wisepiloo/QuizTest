@@ -1,0 +1,100 @@
+¿Qué significa CSS?,Computer Style Sheets,Cascading System Sheets,[#T]Cascading Style Sheets,Code Style Sheets
+¿Qué propiedad se usa para cambiar el color del texto?,color,[#T]color,text-color,font-color
+¿Cuál es la propiedad para establecer el fondo de una página?,text,[#T]background-color,font,color
+¿Cómo se aplica un borde sólido de 1px negro a un elemento?,padding:[#T]border: 1px solid black;,outline: 1px black;,border-style
+¿Cuál es la propiedad para cambiar el tamaño del texto?,text-type,text,[#T]font-size,font-weight
+¿Qué propiedad se usa para añadir espacio dentro de un elemento?,margin,[#T]padding,border,space
+¿Cómo se define el tipo de letra de un texto?,font,[#T]font-family,font-type,text-type
+¿Qué propiedad controla el espacio entre líneas de texto?,letter-spacing,[#T]line-height,word-spacing,font-spacing
+¿Cómo se centra un texto horizontalmente dentro de un bloque?,align,text-center,[#T]text-align: center;,position
+¿Qué propiedad se usa para cambiar el estilo de lista de viñetas?,bullet-style,[#T]list-style-type,text-style,list-style
+¿Cómo se aplica una imagen de fondo a una página?,background-image,[#T]background-image: url('image.jpg');,background-url: image.jpg,background-image: image.jpg
+¿Qué propiedad se usa para hacer que un texto sea negrita?,weight,[#T]font-weight,boldness,font-bold
+¿Qué propiedad controla la visibilidad de un elemento?,hidden,[#T]visibility,display: none,opacity
+¿Cómo se establece la altura mínima de un elemento?,height,[#T]min-height,max-height: auto,min-size
+¿Qué propiedad se usa para establecer la transparencia de un elemento?,transparent,[#T]opacity: 0.5,visibility,alpha
+¿Cómo se alinean los elementos en el eje principal en Flexbox?,justify,[#T]justify-content,align-items,flex-align
+¿Qué propiedad controla el espacio entre palabras?,letter-spacing,[#T]word-spacing,line-height,font-spacing
+¿Cómo se agrega sombra al texto?,text-color:[#T]text-shadow,font-shadow,shadow-text
+¿Qué propiedad se usa para controlar el ancho de un borde?,border-size,[#T]border-width,padding-width,border-radius
+¿Cuál es la propiedad para redondear las esquinas de un borde?,border-type,border,[#T]border-radius,corner
+¿Cómo se cambia el cursor cuando se pasa sobre un elemento?,pointer-type,[#T]cursor,pointer,hover
+¿Qué propiedad define el comportamiento de un fondo al desplazarse?,scroll-behavior,[#T]background-attachment,background-repeat,background-position
+¿Cómo se alinea verticalmente un elemento en Flexbox?,align,[#T]align-items,justify-content,vertical-align
+¿Qué propiedad define el espacio entre el contenido y el borde de un elemento?,margin,[#T]padding,border,spacing
+¿Cómo se establece un borde redondeado solo en la esquina superior izquierda?,border-radius,[#T]border-top-left-radius,border-top-radius,border-left-radius
+¿Qué propiedad controla el tipo de estilo de borde?,border,[#T]border-style,border-width,border-type
+¿Cómo se aplica una animación en CSS?,keyframes,[#T]animation: name duration;,transform: animation,duration
+¿Qué propiedad controla la velocidad de una animación?,duration:[#T]animation-duration,animation-timing,animation-delay
+¿Cómo se añade un retraso a una animación?,animation-delay,[#T]animation-delay,transition-delay,delay-duration
+¿Qué propiedad se usa para especificar el tiempo de transición de un efecto?,animation,[#T]transition-duration,animation-delay,time
+¿Cómo se establece un degradado lineal como fondo?,background-color,[#T]background: linear-gradient;,background-style,gradient-color
+¿Qué propiedad se usa para repetir una imagen de fondo?,repeat,[#T]background-repeat,background-loop,background-image-repeat
+¿Cómo se asegura que una imagen de fondo no se repita?,no-repeat,[#T]background-repeat: no-repeat,background-no-repeat,background-loop
+¿Qué propiedad ajusta la escala de una imagen de fondo?,resize-image,[#T]background-size,background-scale,image-scale
+¿Cómo se ajusta una imagen de fondo al ancho completo del contenedor?,background-width:[#T]background-size: cover;,width: 100%,background-fit
+¿Qué propiedad controla la posición de una imagen de fondo?,background-placement,[#T]background-position,image-position,background-align
+¿Cómo se establece el ancho máximo de un elemento?,max-width:[#T]max-width,width,min-width
+¿Qué propiedad se usa para cambiar el color de los enlaces?,font-color,[#T]color,link-color,text-color
+¿Cómo se cambia el estilo de subrayado de un enlace?,link-style:[#T]text-decoration,text-style,font-style
+¿Qué propiedad elimina el subrayado de un enlace?,text-type,text-color,[#T]text-decoration: none,font-style
+¿Cómo se aplica un efecto de hover a un elemento?,hover-type,[#T],hover-class,hover-style
+¿Qué propiedad define el espaciado entre letras?,word-spacing,[#T]letter-spacing,text-spacing,line-height
+¿Cómo se establece el z-index de un elemento?,index-type:[#T]z-index,positioning,stack-order
+¿Qué propiedad define la sombra de un cuadro?,box-border:[#T]box-shadow,border-shadow,shadow-box
+¿Cómo se convierte un elemento en bloque?,inline,[#T]display: block,display: inline-block,display-type
+¿Qué propiedad controla la distancia entre los elementos en Flexbox?,justify:[#T]gap,margin-spacing,flex-gap
+¿Cómo se centra un elemento con Flexbox?,align-items,[#T]justify-content: center;,center-flex,flex-align
+¿Qué propiedad establece la justificación de los elementos en Grid Layout?,align-items,[#T]justify-items,gap,grid-align
+¿Cómo se divide un diseño en columnas?,flex-column:[#T]grid-template-columns,columns: auto,grid-column
+¿Qué propiedad establece las filas en Grid Layout?,grid-rows,[#T]grid-template-rows,grid-line,row-template
+¿Cómo se aplica una transformación 3D a un elemento?,transform2d,[#T]transform: rotate3d;,rotate,z-index
+¿Qué propiedad define la transformación de escala en CSS?,scale3d,[#T]transform: scale;,resize,transform-size
+¿Cómo se establece una transición entre estados de CSS?,keyframes,[#T]transition: property time;,transition-delay,animation
+¿Qué propiedad define el modo de combinación de un elemento?,blend-mode,[#T]mix-blend-mode,opacity-blend,background-blend
+¿Cómo se establece la alineación de texto en un diseño de Grid?,align-text:[#T]justify-self,align-grid,grid-align
+¿Qué propiedad controla el tamaño de un área de contenido en Grid?,grid-size,[#T]grid-area,grid-space,content-area
+¿Cómo se define la superposición de elementos en Grid Layout?,grid-template,[#T]grid-row: span 2;,grid-columns,grid-overlap
+¿Qué propiedad define el área del contenido en un contenedor?,block-area,[#T]content-box,box-content,container
+¿Cómo se fija un fondo de pantalla para que no se desplace?,background-fixed:[#T]background-attachment: fixed;,position: fixed,background-sticky
+¿Qué propiedad define la orientación del contenido en Flexbox?,align-items:[#T]flex-direction,flex-align,flex-layout
+¿Cómo se establece un contorno alrededor de un elemento?,border-type:[#T]outline,border,shadow-box
+¿Qué propiedad define el color del contorno de un elemento?,border-color,[#T]outline-color,border-outline,outline-style
+¿Cómo se elimina el margen de todos los elementos en una página?,clear-margin:[#T]* { margin: 0; },body: { margin: none; },html { margin: 0; }
+¿Qué propiedad ajusta el ancho de un contenedor en función del tamaño de la ventana?,responsive-width:[#T]width: 100vw;,viewport-width,container-width
+¿Cómo se asegura que un elemento cubra toda la altura disponible?,height,[#T]height: 100vh;,full-height,max-height
+¿Qué propiedad permite que un elemento mantenga sus proporciones al redimensionarse?,auto-resize,[#T]aspect-ratio,scale,resize
+¿Cómo se controla el espacio interno de las celdas de una tabla?,table-margin,[#T]padding,cell-padding,spacing
+¿Qué propiedad define el espacio entre las celdas de una tabla?,cell-padding,[#T]border-spacing,table-spacing,cell-spacing
+¿Cómo se ajusta el tamaño de una tabla automáticamente según su contenido?,width,[#T]table-layout: auto,auto-table,table-size
+¿Qué propiedad establece la separación de columnas en Grid Layout?,column-gap:[#T]grid-column-gap,column-spacing,grid-spacing
+¿Cómo se ajusta el tamaño del contenido al tamaño del contenedor?,resize,[#T]object-fit: cover;,scale: 100%,auto-scale
+¿Qué propiedad define el espacio entre las líneas de una lista?,line-height:[#T]line-height,list-spacing,spacing-height
+¿Cómo se asegura que un elemento quede al frente de otros elementos?,position,[#T]z-index,stack-order,bring-forward
+¿Qué propiedad oculta el desbordamiento de contenido en un contenedor?,overflow-visible:[#T]overflow: hidden;,hide-overflow,overflow-none
+¿Cómo se asegura que un contenedor tenga un desplazamiento vertical?,scrollable:[#T]overflow-y: scroll;,scrollbar-y,vertical-scroll
+¿Qué propiedad controla la velocidad de desplazamiento en un contenedor?,scroll-speed,[#T]scroll-behavior: smooth;,scroll-timing,overflow-speed
+¿Cómo se ajusta el tamaño máximo de un elemento en un contenedor?,max-size:[#T]max-width,max-length,max-height
+¿Qué propiedad define el contenido dentro de una celda en Flexbox?,content:[#T]align-content,justify-content,align-items
+¿Cómo se define la orientación de un gradiente en CSS?,direction-gradient,[#T]background: linear-gradient(to right);,rotate-gradient,gradient-align
+¿Qué propiedad permite que un texto fluya alrededor de un elemento flotante?,position-type,[#T]float,text-flow,wrap
+¿Cómo se configura el espacio entre una imagen y el texto que la rodea?,image-padding,[#T]margin,image-spacing,padding
+¿Qué propiedad permite que un texto se ajuste a varias líneas?,wrap-text,[#T]word-wrap,line-wrap,text-wrap
+¿Cómo se divide un texto en columnas?,text-columns,[#T]column-count,column-split,columns
+¿Qué propiedad establece la distancia entre columnas en un diseño?,grid-columns:[#T]column-gap,column-space,column-padding
+¿Cómo se establece el orden de los elementos en Flexbox?,order-items,[#T]order,order-align,align-order
+¿Qué propiedad controla la transición de opacidad en un elemento?,fade,[#T]transition: opacity duration;,opacity-timing,fade-opacity
+¿Cómo se asegura que un texto quede truncado si es muy largo?,truncate-text,[#T]text-overflow: ellipsis;,overflow-truncate,clip-text
+¿Qué propiedad define la dirección de escritura del texto?,writing-type,[#T]writing-mode,text-direction,text-flow
+¿Cómo se ajusta el color de un borde en un elemento?,border-style,[#T]border-color,outline-color,border-width
+¿Qué propiedad controla la visibilidad de un borde superior?,top-border:[#T]border-top,border-style,border-visibility
+¿Cómo se establece el contenido de un pseudo-elemento?,content,[#T]content: '';,pseudo-content,before-content
+¿Qué propiedad define la estructura de un diseño en CSS Grid?,grid-template-type:[#T]grid-template,grid-columns,grid-template-structure
+¿Cómo se distribuyen los elementos en filas en Flexbox?,flex-row:[#T]flex-direction: row;,row-align,flex-align
+¿Qué propiedad establece el ancho de las columnas en un diseño de Grid?,grid-size,[#T]grid-template-columns,grid-template-rows,column-width
+¿Cómo se establece la animación de un pseudo-elemento?,before-animation,[#T]animation: name duration;,pseudo-animation,content-animation
+¿Qué propiedad define la fuente predeterminada en una página web?,text-font,[#T]font-family,font-type,font-default
+¿Cómo se aplica una animación de escala a un elemento en hover?,hover-scale:[#T]transform: scale(1.2);,scale-hover,scale-zoom
+¿Qué propiedad define el desplazamiento entre filas en Grid Layout?,row-spacing:[#T]grid-row-gap,row-gap,grid-spacing
+¿Cómo se establece la posición fija de un elemento?,static:[#T]position: fixed,position: absolute,absolute-fixed
+¿Qué propiedad permite que un elemento mantenga su tamaño original al hacer zoom?,zoom-type:[#T]zoom,transform: scale(1),zoom-origin
